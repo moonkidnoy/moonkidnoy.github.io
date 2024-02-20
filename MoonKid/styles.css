@@ -1,0 +1,137 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .fixed-navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fixed-navigator li {
+    margin: 0 10px;
+  }
+  
+  .fixed-navigator a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+    color: #f8f3f3;
+  }
+  
+  /* Header styles */
+  header {
+    background-image: url('images/moonkid.jpg');
+    background-color: #333;
+    padding: 20px;
+  }
+
+  .text-container {
+    background-color: rgba(255, 255, 255, 0.5); /* 設置容器的背景顏色和透明度 */
+    padding: 10px;
+  }
+  
+  .text-container h1, .text-container p {
+    color: #fff; /* 設置文字顏色 */
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-top: 30px;
+    height: 30vh;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  section {
+    margin-bottom: 20px;
+    background-color: #333;
+    background-size: cover; /* 調整背景圖片的大小以填滿整個區塊 */
+    background-position: center; /* 將背景圖片置於區塊的中間 */
+    background-repeat: no-repeat; /* 不重複背景圖片 */
+     
+  }
+  
+  .about-section {
+    background-image: url('images/about.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+  }
+
+  .services-section {
+    background-image: url('images/services.jpg');
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat;
+  }
+
+  .testimonials-section {
+    background-image: url('images/testimonials.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .contact-section {
+    background-image: url('images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .fixed-navigator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    z-index: 999;
+  }
