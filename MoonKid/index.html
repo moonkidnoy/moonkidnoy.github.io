@@ -1,60 +1,213 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-CN">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>網頁開發公司</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    /* Add CSS styles for the fixed navigator */
-
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonKid - Site One Page</title>
+    <meta name="description"
+        content="MoonKid, Web development.">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="fixed-navigator">
-    <ul>
-      <li><a href="#about">關於我們</a></li>
-      <li><a href="#services">服務項目</a></li>
-      <li><a href="#testimonials">客戶評價</a></li>
-      <li><a href="#contact">聯絡我們</a></li>
-    </ul>
-  </div>
-
-  <header>
-    <div class="text-container">
-      <h1>歡迎來到網頁開發公司</h1>
-    </div>
-  </header>
-
-  <main>
-    <section class="about-section">
-      <h2>關於我們</h2>
-      <p>在這裡簡要介紹網頁開發公司的背景、價值和使命。</p>
+    <!-- Header -->
+    <header id="inicio">
+        <div class="Container Flex">
+            <div id="logo">
+                <img src="img/logo.png" alt="hal 9000">
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268c;</label>
+                <ul>
+                    <li><a href="#inicio">Home</a></li>
+                    <li><a href="#sobre">About</a></li>
+                    <li><a href="#conteudo">Content</a></li>
+                    <li><a href="#contato">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Highlight -->
+    <main>
+        <div class="Container">
+            <h1>Moon Kid Website</h1>
+            <h2>一頁式網站</h2>
+            <a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank" class="Botao">某個鏈接</a>
+        </div>
+    </main>
+    <!-- About -->
+    <section id="sobre">
+        <div class="Container Flex2">
+            <div id="destaqueSobre">
+                <img src="img/mk_1.gif" alt="moonkid">
+            </div>
+            <div id="textoSobre">
+                <h2>我們提供網站建立服務</h2>
+                <p>特色：</p>
+                <div class="TopicosSobre Flex2">
+                    <img src="img/instagram.png" alt="moonkid">
+                    <p>一頁式網站</p>
+                </div>
+                <div class="TopicosSobre Flex2">
+                    <img src="img/instagram.png" alt="moonkid">
+                    <p>絕無綁定</p>
+                </div>
+                <div class="TopicosSobre Flex2">
+                    <img src="img/instagram.png" alt="moonkid">
+                    <p>響應式</p>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- One page -->
+    <section id="onepage">
+        <div class="Container Flex3">
+            <div>
+                <h2>你想放的東西</h2>
+                <p>你可以放上自己的Youtube，介紹自己的夢想和才華；也可以寫下自己的夢想日誌，記錄自己的進展和挑戰。此外，還可以在創意市集上展示和銷售自己的手工藝品、藝術作品和創意產品。</p>
+            </div>
+            <div id="video">
+                <iframe width="1280" 
+                height="720" 
+                src="https://www.youtube.com/embed/s7LNSuJHVww" 
+                title="YouTube Rewind 2023: Gave A Second Chance To Rewind | #YouTubeRewind" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
 
-    <section class="services-section">
-      <h2>服務項目</h2>
-      <ul>
-        <li>網站設計與開發</li>
-        <li>前端開發</li>
-        <li>後端開發</li>
-        <li>電子商務解決方案</li>
-      </ul>
+            
+        </div>
     </section>
-
-    <section class="testimonials-section">
-      <h2>客戶評價</h2>
-      <p>在這裡展示幾個客戶對您服務的正面評價或推薦。</p>
+    <!-- Wireframe -->
+    <section id="wireframe">
+        <div class="Container Flex2">
+            <div id="textoWire">
+                
+                <h2>另一個東西</h2>
+                <p>一段簡介，例如這句話，但請達到建議的字數量，數量是什麽？中文建議為50字或以上，原因是要兼顧美感。當然你也可以寫更多的東西。
+                    
+                </p>
+                <a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank" class="Botao">立即聯絡</a>
+                
+            </div>
+            
+            <div id="qrcode">
+                <img src="img/qrcode.png" alt="qrcode">
+            </div>
+            
+        </div>
     </section>
-
-    <section class="contact-section">
-      <h2>聯絡我們</h2>
-      <p>提供聯絡資訊，例如電子郵件地址、電話號碼或聯絡表單。</p>
+    <!-- Conteúdo -->
+    <section id="conteudo">
+        <div class="Container">
+            <h2>我們提供</h2>
+            <div class="Cards Flex4">
+                <div class="Card">
+                    <img src="img/estruturahtml.png"  alt="one-site" style="height: 264px; width: 338px;">
+                    <h3>一個漂亮的一頁式網站</h3>
+                    <p>我們提供可高度客制化的一頁式網站，支援包括動圖，Youtube，PDF，QR Code在内的多種媒體。</p>
+                    <!--<a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank" class="Botao">Saiba +</a>-->
+                </div>
+                <div class="Card">
+                    <img src="img/boxmodel.png" alt="Full Pack File" style="height: 264px; width: 338px;">
+                    <h3>絕無綁定</h3>
+                    <p>我們提供組成網站的全部檔案，不强制綁定任何網站或後續服務，爲你提供最高自由度。</p>
+                    <!--<a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank" class="Botao">Saiba +</a>-->
+                </div>
+                <div class="Card">
+                    <img src="img/breakpoints.png" alt="breakpoints" style="height: 264px; width: 338px;">                    
+                    <h3>響應式網站</h3>
+                    <p>響應式網站適用於電腦、平板、手機等不同尺寸的熒幕，無論哪種硬件訪問皆能游刃有餘地顯示。</p>
+                    <!--<a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank" class="Botao">Saiba +</a>-->
+                </div>
+            </div>
+            <div id="todos">
+                <a href="https://forms.gle/aHpeRxhYuy7gDSa26"
+                    target="_blank">立刻行動>></a>
+            </div>
+        </div>
     </section>
-  </main>
+    <!-- Rodapé -->
+    <address>
+        <div class="Container Flex6">
+            <div id="contato">
+                <a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank">
+                    <img src="img/whatsapp.png" alt="whatsapp" title="WhatsApp(範例)">
+                    <p>1234-5678</p>
+                </a>
+                <img src="img/fone.png" alt="fone">
+                <p>1234-5678</p>
+            </div>
+            <div>
+                
+                <a href="https://forms.gle/CcX9gRXGUzvwPKBi7"><img src="img/mapa.png" alt="Mapa" id="iconeMapa"></a>
+                <img src="img/local.png" alt="local" id="iconeLocal">
+                <p>Greenland</p>
+                <p>Or Your Location</p>
+                <p>Worldwide</p>
+                <a href="mailto:moonkidnoy@gmail.com?subject=Web Develop">
+                    <img src="img/email.png" alt="email" title="E-mail">
+                    <p>moonkidnoy@gmail.com</p>
+                </a>
+                <p id="dados">&#128064; 可以放置地址及聯絡方式</p>
+            </div>
+            <div id="googleMaps">                
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34641092.727201454!2d-91.52692278169717!3d57.99927323226279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ea20dbbe3c07715%3A0x34cf9d830114e218!2sGreenland!5e0!3m2!1sen!2shk!4v1709137941835!5m2!1sen!2shk" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>    
+            </div>
 
-  <footer>
-    <p>&copy; 2024 網頁開發公司. All rights reserved.</p>
-  </footer>
+        </div>
+    </address>
+    <footer>
+        <div class="Container Flex5">
+            <div>
+                <p>&#169;2024 - MoonKid</p>
+            </div>
+            <div id="social">
+                <a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank"><img src="img/youtube.png"
+                        alt="youtube" /></a>
+                <a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank"><img src="img/linkedin.png"
+                        alt="linkedin" /></a>
+                <a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank"><img src="img/facebook.png"
+                        alt="facebook" /></a>
+                <a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank"><img src="img/instagram.png"
+                        alt="instagram" /></a>
+                <a href="https://forms.gle/aHpeRxhYuy7gDSa26" target="_blank"><img src="img/twitter.png" alt="twitter" /></a>
+            </div>
+        </div>
+    </footer>
+    <a href="#inicio" id="topo"><img src="img/topo.png" alt="Go to Top"></a>
 </body>
+
 </html>
+<!--
+Reference:
+MIT License
+
+Copyright (c) 2021 Professor José de Assis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-->
